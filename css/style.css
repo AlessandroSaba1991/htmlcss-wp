@@ -1,0 +1,137 @@
+/* Reset Page */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Debug */
+
+.debug > .site_header{
+    height: 160px; 
+}
+
+.debug  .img_header{
+    height: 80px;
+    background-color: chartreuse;
+}
+
+.debug .site_nav{
+    height: 50px;
+    background-color: aqua;
+}
+
+.debug .img_main{
+    height: 500px;
+    background-color: brown;
+}
+
+.debug .text_img{
+    width: 620px;
+    height: 150px;
+    background-color: rgba(65, 182, 90, 0.349);
+}
+
+.debug .title{
+    height: 100px;
+    background-color: darkgoldenrod;
+}
+
+.debug .row_img  .aside{
+    height: 200px;
+    background-color: red;
+}
+
+.debug .row_img .content{
+    height: 200px;
+    background-color: red;
+}
+
+.debug .row_text .aside{
+    height: 350px;
+    background-color: rgb(43, 183, 226);
+}
+
+.debug .row_text .content{
+    height: 350px;
+    background-color: rgb(43, 183, 226);
+}
+
+.debug .site_footer{
+    height: 60px;
+    background-color: lightsalmon;
+}
+
+
+/* Utility */
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.table{
+    height: 550px;
+}
+
+ 
+/* Main */
+
+
+
+.img_header{
+    
+}
+
+.site_nav{
+    margin: 15px 0;
+    
+}
+
+.img_main{
+    position: relative;
+}
+
+.text_img{
+    position: absolute;
+    left: 30px;
+    bottom: 45px;
+}
+
+.title{
+    margin: 20px 0;
+}
+
+.row_img  .aside{
+    width: 28%;
+    float: left;
+
+}
+
+.row_img .content{
+    width: 40%;
+    margin: 0 2%;
+    float: left;
+    
+}
+
+.row_text .aside{
+    width: 28%;
+    float: left;
+}
+
+.row_text .content{
+    width: 40%;
+    margin: 0 2%;
+    float: left;
+}
+.site_footer{
+    margin: 15px 0;
+}
