@@ -12,15 +12,9 @@
     height: 160px; 
 }
 
-.debug  .img_header{
-    height: 80px;
-    background-color: chartreuse;
-}
 
-.debug .site_nav{
-    height: 50px;
-    background-color: aqua;
-}
+
+
 
 .debug .img_main{
     height: 500px;
@@ -68,7 +62,7 @@
 
 .container{
     width: 1440px;
-    margin: 0 auto;
+    margin: 1rem auto;
 }
 
 .clearfix::after{
@@ -81,17 +75,30 @@
     height: 550px;
 }
 
+.box_nav{
+    color: #8D8D8D;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+
+}
+
  
 /* Main */
 
-
-
 .img_header{
-    
+    height: 70px;
+}
+
+.img_header > img{
+    border-right: 1px solid #EFEFEF;
+    padding-right: 20px;
+    max-height: 100%;
 }
 
 .site_nav{
-    margin: 15px 0;
+    margin: 35px 0;
     
 }
 
